@@ -33,7 +33,5 @@ We will likely add database technologies. We will also publish finalized app to 
 
 # Built With
 Java | JavaFX | Scene Builder | Android Studio | IntelliJ IDE 
-# Demo
-## Project Demo
-
+# Project Demo
 Check out the video demo of our project on YouTube: [![JAVAFX_DEMO](https://img.youtube.com/vi/ikeFHzTZzU8/0.jpg)](https://youtu.be/ikeFHzTZzU8)
