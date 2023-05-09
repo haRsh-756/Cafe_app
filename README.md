@@ -28,7 +28,7 @@ We built a web app and android app by integrating two entirely different framewo
 # What we learned
 We learnt how to use two very complicated frameworks/tools while building a web app and android app at the same time.
 
-# What's next for Green Routes
+# What's next for RU_CAFE
 We will likely add database technologies. We will also publish finalized app to Google Play Store so it is more accessible to users.
 
 # Built With
