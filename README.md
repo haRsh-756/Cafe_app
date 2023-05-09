@@ -29,7 +29,7 @@ We built a web app and android app by integrating two entirely different framewo
 We learnt how to use two very complicated frameworks/tools while building a web app and android app at the same time.
 
 # What's next for Green Routes
-We will likely add database technologies. We will also publish finalized app to Google playStore so it is more accessible to users.
+We will likely add database technologies. We will also publish finalized app to Google Play Store so it is more accessible to users.
 
 # Built With
 Java | JavaFX | Scene Builder | Android Studio | IntelliJ IDE  
