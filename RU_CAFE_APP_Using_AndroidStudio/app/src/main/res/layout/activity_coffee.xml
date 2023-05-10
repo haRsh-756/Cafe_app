@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/qty"
+        android:layout_width="56dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="24dp"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/addQty"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toEndOf="@+id/minusQty"
+        app:layout_constraintTop_toBottomOf="@+id/coffeeSizes" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/coffee"
+        android:contentDescription="@string/order_coffee" />
+
+
+    <Spinner
+        android:id="@+id/coffeeSizes"
+        android:layout_width="262dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+    <EditText
+        android:id="@+id/subtotalEditText"
+        android:layout_width="158dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="104dp"
+        android:autofillHints=""
+        android:editable="false"
+        android:hint="@string/format"
+        android:inputType="none"
+        android:textAlignment="textStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coffeeSizes"
+        tools:ignore="Deprecated" />
+
+    <TextView
+        android:id="@+id/subTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subtotal"
+        app:layout_constraintBottom_toTopOf="@+id/subtotalEditText"
+        app:layout_constraintStart_toStartOf="@+id/subtotalEditText" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:id="@+id/sweetCreamFlavor"
+                android:layout_width="88dp"
+                android:layout_height="55dp"
+                android:text="@string/sweet_cream" />
+
+            <CheckBox
+                android:id="@+id/irishCreamFlavor"
+                android:layout_width="79dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/irish_cream" />
+
+            <CheckBox
+                android:id="@+id/frenchVanillaFlavor"
+                android:layout_width="79dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/french_vanilla" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:id="@+id/mochaFlavor"
+                android:layout_width="88dp"
+                android:layout_height="55dp"
+                android:text="@string/mocha" />
+
+            <CheckBox
+                android:id="@+id/caramelFlavor"
+                android:layout_width="88dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/caramel" />
+            <CheckBox
+                android:id="@+id/black"
+                android:layout_width="88dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/black"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/addToOrder"
+        android:layout_width="175dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/addToOrder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtotalEditText" />
+
+    <Button
+        android:id="@+id/addQty"
+        android:layout_width="56dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="100dp"
+        android:text="@string/plus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coffeeSizes" />
+
+    <Button
+        android:id="@+id/minusQty"
+        android:layout_width="54dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/minus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coffeeSizes" />
+</androidx.constraintlayout.widget.ConstraintLayout>

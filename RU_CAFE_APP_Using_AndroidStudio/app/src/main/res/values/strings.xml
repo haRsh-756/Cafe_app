@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">CafeApp</string>
+    <string name="order_donuts">Order Donuts</string>
+    <string name="order_coffee">Order Coffee</string>
+    <string name="basket">View Cart</string>
+    <string name="orders">View Orders</string>
+    <string name="rutgers_cafe">Welcome to Rutgers Cafe</string>
+    <string name="donuts">donutType</string>
+    <string name="minus">-</string>
+    <string name="donutName" />
+    <string name="displayCurrentQty"/>
+    <string name="plus">+</string>
+    <string name="addToOrder">Add To Order</string>
+    <string name="black">Black</string>
+    <string name="caramel">Caramel</string>
+    <string name="mocha">Mocha</string>
+    <string name="sweet_cream">Sweet Cream</string>
+    <string name="french_vanilla">French Vanilla</string>
+    <string name="irish_cream">Irish Cream</string>
+    <string name="format">$0.00</string>
+    <string name="subtotal">subtotal</string>
+    <string name="amount">amount</string>
+    <string name="total">total</string>
+    <string name="place_order">PLACE ORDER</string>
+    <string name="shoppingcart">shoppingcart</string>
+    <string name="remove_selected_item">Remove Selected Item</string>
+    <string name="your_order">Your Order</string>
+    <string name="sales_tax">sales tax</string>
+    <string name="dollar">Each $</string>
+    <string name="store_orders">Store Orders</string>
+    <string-array name="cupSize">
+        <item>Short</item>
+        <item>Tall</item>
+        <item>Grande</item>
+        <item>Venti</item>
+    </string-array>
+    <string-array name="donutType">
+        <item>Yeast Donuts</item>
+        <item>Cake Donuts</item>
+        <item>Donuts Holes</item>
+    </string-array>
+    <string-array name = "YeastDonuts">
+        <item>StrawberryFrosted</item>
+        <item>Jelly</item>
+        <item>Glazed</item>
+        <item>Vanilla Frosted</item>
+        <item>Sugar</item>
+        <item>Crispy Creme</item>
+    </string-array>
+    <string-array name="CakeDonuts">
+        <item>Old fashioned</item>
+        <item>Glazed Blueberry</item>
+        <item>Cinnamon Sugar</item>
+        <item>Apple Cider</item>
+        <item>Chocolate Glazed</item>
+    </string-array>
+    <string-array name="DonutHoles">
+        <item>Glazed holes</item>
+        <item>Glazed chocolate holes</item>
+        <item>Jelly holes</item>
+        <item>Pumpkin holes</item>
+    </string-array>
+</resources>

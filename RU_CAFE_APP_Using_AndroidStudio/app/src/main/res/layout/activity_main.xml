@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rutgers_cafe"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/img_button4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="24dp"
+        android:layout_toEndOf="@+id/textView3"
+        android:text="@string/orders"
+        android:textAlignment="center"
+        android:textColor="#4E342E"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/img_button3"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="23dp"
+        android:layout_toEndOf="@+id/textView2"
+        android:text="@string/basket"
+        android:textAlignment="center"
+        android:textColor="#4E342E"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/img_button2"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="23dp"
+        android:layout_toEndOf="@+id/textView1"
+        android:text="@string/order_coffee"
+        android:textAlignment="center"
+        android:textColor="#4E342E"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/img_button1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="23dp"
+        android:text="@string/order_donuts"
+        android:textAlignment="center"
+        android:textColor="#4E342E"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/img_button1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/title_textview"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/donuts"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/order_donuts" />
+
+    <ImageButton
+        android:id="@+id/img_button2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/title_textview"
+        android:layout_marginTop="32dp"
+        android:layout_toEndOf="@id/img_button1"
+        android:src="@drawable/coffee"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/order_coffee" />
+
+    <ImageButton
+        android:id="@+id/img_button3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/title_textview"
+        android:layout_marginTop="32dp"
+        android:layout_toEndOf="@id/img_button2"
+        android:src="@drawable/shoppingbag"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/basket"/>
+
+    <ImageButton
+        android:id="@+id/img_button4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/title_textview"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="3dp"
+        android:layout_toEndOf="@id/img_button3"
+        android:contentDescription="@string/orders"
+        android:scaleType="fitCenter"
+        android:src="@drawable/orders"
+        tools:ignore="ImageContrastCheck" />
+
+</RelativeLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="#9FDFA2"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="362dp"
+            android:layout_height="110dp"
+            android:background="#9BC7EC">
+
+
+            <Button
+                android:id="@+id/add"
+                android:layout_width="59dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="48dp"
+                android:backgroundTint="#FFC107"
+                android:text="@string/plus"
+                android:textAlignment="center"
+                android:textColor="#006064"
+                app:layout_constraintStart_toEndOf="@+id/qty"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/donutName"
+                android:layout_width="229dp"
+                android:layout_height="37dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/remove"
+                android:layout_width="62dp"
+                android:layout_height="49dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="48dp"
+                android:backgroundTint="#FFC107"
+                android:text="@string/minus"
+                android:textAlignment="center"
+                android:textColor="#006064"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/qty"
+                android:layout_width="44dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="48dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toEndOf="@+id/remove"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/addToOrder"
+                android:layout_width="120dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="48dp"
+                android:text="@string/addToOrder"
+                android:textAlignment="center"
+                android:textSize="13sp"
+                app:layout_constraintStart_toEndOf="@+id/add"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/subTotal"
+                android:layout_width="84dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="8dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/format"
+                android:inputType="none"
+                android:textAlignment="textStart"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="@+id/addToOrder"
+                app:layout_constraintTop_toTopOf="@+id/donutName" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
