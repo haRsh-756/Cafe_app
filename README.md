@@ -1,5 +1,8 @@
 # project_app_development
 
+# Authors
+harsh_patel and giancarlo_andretta
+
 # Inspiration
 CS213-Software Methodology last project. Built an RU_CAFE application using Android Studio-Java(Android App) and JavaFX(Desktop App).
  
