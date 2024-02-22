@@ -42,3 +42,5 @@ Check out the video demo of our project on YouTube
 Desktop App: [![JAVAFX_DEMO](https://img.youtube.com/vi/ikeFHzTZzU8/0.jpg)](https://youtu.be/ikeFHzTZzU8)
 
 Android App: [![AndroidApp_Demo](https://img.youtube.com/vi/kLND7xL9yWM/0.jpg)](https://youtu.be/kLND7xL9yWM)
+
+Please follow both [Rutgers University's Principles of Academic Integrity](https://academicintegrity.rutgers.edu) and the [Rutgers Department of Computer Science's Academic Integrity Policy](https://www.cs.rutgers.edu/academics/undergraduate/academic-integrity-policy)
